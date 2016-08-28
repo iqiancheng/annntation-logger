@@ -1,4 +1,4 @@
-package me.qiancheng.qianworks.easylogger;
+package me.qiancheng.qianworks.logger;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,11 +8,10 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
- * Created by iamya on 6/25/2016.
+ *  入口
+ * @author <a href="i@qiancheng.me">千橙</a>
  */
-@EnableAsync
 @EnableAspectJAutoProxy
-@EnableScheduling
 @SpringBootApplication
 @ComponentScan(basePackages="me.qiancheng.qianworks")
 public class Application {

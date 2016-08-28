@@ -1,4 +1,4 @@
-package me.qiancheng.qianworks.easylogger.base;
+package me.qiancheng.qianworks.logger.base;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;

@@ -1,4 +1,4 @@
-package me.qiancheng.qianworks.easylogger.config;
+package me.qiancheng.qianworks.logger.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;

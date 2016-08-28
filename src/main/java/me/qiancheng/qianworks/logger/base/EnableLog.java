@@ -1,4 +1,4 @@
-package me.qiancheng.qianworks.easylogger.base;
+package me.qiancheng.qianworks.logger.base;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

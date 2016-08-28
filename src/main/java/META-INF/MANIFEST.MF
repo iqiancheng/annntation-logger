@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: me.qiancheng.qianworks.easylogger.Application
+Main-Class: me.qiancheng.qianworks.logger.Application
 
