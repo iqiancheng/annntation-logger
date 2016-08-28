@@ -37,7 +37,8 @@ public class LogAdvice {
 
     private String argsToString(Object[] paramArray) {
         return Joiner.on(COMMA).
-                appendTo(new StringBuilder(),paramArray).
+                useForNull("null"). // NPE 替换为 字符串 null
+                join(new StringBuilder(), paramArray).
                 toString();
     }
 
